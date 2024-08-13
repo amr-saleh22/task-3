@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+  }
+  
+  .Webinar  {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  
+  .menu {
+    display: none;
+    font-size: 1.5rem;
+  }
+  
+  .navlinksWrapper {
+    display: flex;
+  }
+  
+  .navlinks {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navlink {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    .menu {
+      display: block;
+    }
+  
+    .navlinksWrapper {
+      display: none;
+      flex-direction: column;
+    }
+  
+    .navlinksWrapper.active {
+      display: flex;
+    }
+  
+    .navlinks {
+      flex-direction: column;
+    }
+  
+    .navlink {
+      margin: 0.5rem 0;
+    }
+  }

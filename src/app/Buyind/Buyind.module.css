@@ -1,0 +1,39 @@
+.Bigger{
+    background-color: #101010;
+    width: 100%;
+    height: 304px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Smaller{
+    background-color: #101010;
+    color: white;
+    width: 100%;
+    /* height: 304px; */
+    text-align: center;
+    padding: 20px;
+    font-size: 48.83px;
+    box-sizing: border-box;
+}
+.btns{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 24px;
+    margin-top:20px ;
+    }
+    
+    .btn1{
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    /* color: #efefef; */
+    background: var(--Primary, #F8B517);
+    }
+    .btn1:hover{
+        background-color: #a7790e;
+    }

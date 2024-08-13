@@ -1,16 +1,8 @@
 import module from "./about.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import Header from '../components/header/Header';
-
-function AboutPage(){
-
-
+function About(){
   return (
-    
-    <>
-      <Header />
-
     <div className={module.First}>
       <h3 className={module.Write}>Get to Know V.Connct Webinar</h3>
       <p className={module.Para}>
@@ -29,7 +21,7 @@ function AboutPage(){
           </div>
           <div className={module.ULeft}>
             <h3 className={module.Writer}>Brand Identity</h3>
-            <Image src="/Rectangle6 .png" alt="Webinar" width={500} height={300} />
+            <Image src="/Rectangle6.png" alt="Webinar" width={500} height={300} />
           </div>
         </div>
         <div className={module.Middle}>
@@ -58,11 +50,10 @@ function AboutPage(){
         </div>
       </div>
       <div className={module.btns}>
-        <Link className={module.btn1} href={"/Buying"} > Plans & Pricing </Link>
+        <Link className={module.btn1} href={"Buying"} > Plans & Pricing </Link>
       </div>
     </div>
-    </>
   );
 };
 
-export default AboutPage;
+export default About;
